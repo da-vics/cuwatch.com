@@ -1,0 +1,113 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.image{
+    width:200px;
+    margin: 0px 40% 0px 40%;
+    
+}
+
+.hidden{
+    display: none;
+}
+h1{
+    text-align: center;
+    color: purple;
+    font-size: 40px;
+}
+
+.details{
+
+    color: darkred;
+    text-align: center;
+    border-style: solid;
+    border-color: purple;
+    border-width: 5px;
+    border-radius:20px;
+    margin: 0px 20% 0px 20%;
+    
+
+
+}
+
+.userpage{
+   font-style: italic;
+   font-size: 25px;  
+   
+}
+
+.cal{
+
+    text-align: center;
+    color: darkred;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+.cal2{
+
+    text-align: center;
+    color: purple;
+    font-size: 40px;
+    font-style: italic;
+   
+
+}
+
+.table{
+    color: darkred;
+    font-style: italic;
+    border-style: solid;
+    border-width:10px;
+    border-color: aqua;
+    margin: 0 20% 0 20%;
+    padding: 0 0 0 0;
+    text-align:center;
+    background: silver;
+}
+
+.table2{
+    color: darkblue;
+    font-style: italic;
+    border-style: solid;
+    border-width:10px;
+    border-color: red;
+    margin: 0 20% 0 20%;
+    padding: 0 0 0 0;
+    text-align:center;
+    background: peachpuff;
+}
+
+table{
+    border-color : darkcyan;
+    border-width: 5px;
+    border-style: solid;
+}
+td{
+
+    color: darkred;
+    border-color : purple;
+    border-width: 5px;
+    border-style: solid;
+ 
+}
+
+tfoot{
+    color: red;
+}
+
+
+.tee{
+
+    background: white;
+}
+
+.tee2{
+
+    background: rgb(197, 126, 126);
+}

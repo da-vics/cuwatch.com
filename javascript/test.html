@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+            testing 
+    </title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <p>
+    TESTING 1,2,3...........
+    </p>
+
+    
+
+<img src="cu.png" width="100" >
+
+<br>
+
+<form action="#">
+<label>
+Enter Your name:
+<input type="text"   id="te" class="tee" name="text" onfocus="fo();" onblur="bl();">
+
+</label>
+</form>
+<br>
+<br>
+
+<script>
+
+    function fo () {
+
+        var test = document.getElementById("te");
+        test.className = "tee2";
+        
+    }
+
+    function bl () {
+
+        var test = document.getElementById("te");
+        test.className = "tee";
+
+        }
+
+        var  a = document.querySelector('body');
+
+
+        document.write(a.childNodes.length);
+        {
+      
+             document.write(a.childNodes[1].childNodes[0].nodeValue);
+         
+        }
+
+        var aa = document.createElement('h1');
+        var aaa = document.createTextNode("victor is awesome!");
+        aa.append(aaa);
+        a.append(aa);
+     
+ </script>
+
+</body>
+
+</html>

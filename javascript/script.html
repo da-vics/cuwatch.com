@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <title>
+        javascript
+    </title>
+
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<!--
+
+    onload="checkblock();"
+-->
+<body >
+
+    <hr>
+        <form onSubmit="return checkin();" action="process.php" method="GET">
+
+
+            <input type="text" id="zip" name="zipcode">
+
+            <!--
+            <div id="al">
+            <label for="MALE">male</label>
+            <input type="radio" name = "gender" value="male"> 
+            <label for="FEMALE">female</label>
+            <input type="radio" name = "gender" value="female"> 
+            <label for="OTHER">other</label>
+            <input type="radio" name = "gender" value="other"> 
+        </div>
+-->
+            <!--
+            <select name="choice" id="choice">
+                    
+                    
+                <option value="" selected> Select a number</option>
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option  value="3"> 3</option>
+
+
+                </select>
+
+                -->
+
+                <!--
+                            <label for="Username">Enter your name: 
+                                </label>
+                    <input type="text" name="username" id="username" >
+                    -->
+
+                <input type="submit" name="submit" value="submit">
+
+        </form>
+
+    <div id="app">
+
+    </div>
+
+    <button id="forward" id="of">forward</button> 
+
+    <br>
+   <button><a href="#testing">Test</a> </button> 
+
+    <img id="test" src="cu.png" width="100" alt="watch">
+
+
+  <abbr title="Don't won't to see this? click on it to remove it">  <img src="cu.png"  id="im" class="image" onclick="hide();">  </abbr> 
+
+
+    <a href="script.js"><abbr title="CU LOGO"><img src="cu.png" width=40 onclick="alert('rediricting!');"  style=" margin: 0px 50% 0px 50%;"> </abbr></a> 
+
+
+    <img  id="imgg" src="b4.jpg" onmouseover="af(id,'af.jpg');" width=100 onmouseout="b4(id,'b4.jpg');">
+
+
+    <form>
+
+            <label for="ZIP"> Zip: 
+        <input type="text" id="zip" onblur="fillcountry();" required placeholder="Enter your Zip code..">
+    </label>
+
+    <label for="COUNTRY"> Country: 
+            <input type="text" id="country" required placeholder="Enter your country..">
+        </label>
+
+    </form>
+
+
+        <p id="para" > The body is made up of differnet parts
+
+            <a href="JavaScript:void(0)" onclick="newpara();"><em>Click me!</em></a>
+        </p>
+
+    <h1> javascript</h1>
+
+    <div id="victor" class="cal">
+        victor
+    </div>
+
+    <ol>
+
+        <li id="one" class="table"> victor</li>
+
+        <li id="two" class="table"> tade</li>
+        
+        <li id="three" class="table"> ovie</li>
+        
+        <li id="four" class="table"> tom</li>
+    
+    </ol>
+
+
+
+    <audio controls>
+        <source src="angle.mp3" type="audio/mp3" >
+    </audio>
+
+<hr>
+
+<table>
+
+    <caption> Names and Scores</caption>
+<thead>
+
+    <tr>
+        <th> Name </th>
+        <th> Score </th>
+    </tr>
+</thead>
+
+<tbody>
+
+    <tr>
+        <td>Victor Tomoloju</td>
+        <td>1000</td>
+    </tr>
+
+    <tr>
+            <td>Tade Tom</td>
+            <td>500</td>
+        </tr>
+
+</tbody>
+
+<tfoot>
+    <tr>
+        <td></td>
+        <td>1500</td>
+    </tr>
+</tfoot>
+
+</table>
+
+<meter value="60"> </meter>
+
+
+<div id="testing">
+<p> Victor</p>
+<script src="script.js"></script>
+</div>
+
+
+</body>
+</html>
